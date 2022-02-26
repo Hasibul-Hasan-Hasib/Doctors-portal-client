@@ -20,7 +20,7 @@ const Service = (props) => {
                     <Typography sx={{mb: 1}} variant="h5" component="div">
                         {name}
                     </Typography>
-                    <Typography variant="body2">
+                    <Typography variant="body2" sx={{color:'#607d8b'}}>
                         {description}
                     </Typography>
                 </CardContent>
